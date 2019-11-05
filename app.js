@@ -8,7 +8,7 @@ function addItem(input) {
         input,
         checked: false
     }
-        toDoList.push(item);
+        toDoList.push(item); 
         addToUI(toDoList, taskList);
         localStorage.setItem('tasks', JSON.stringify(toDoList));
         form.reset();
