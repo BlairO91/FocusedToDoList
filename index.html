@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>WEEKMATE</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navBar">
+            <h1>Weekmate</h1>
+        </div>
+        <div id="leftSide">
+            <div id="mainGoalContainer">
+                <h2 class="mainGoalTitle">This week I will</h2>
+                <div class="mainGoal">
+                    <p>Complete the first draft of web design portfolio.</p>
+                </div>
+            </div>
+            <div class="topThreeContainer">
+                <div class="topThree" id="topTasks">
+                    <div class="topThreeTitle">
+                        <h3>Top 3 Tasks</h3>
+                    </div>
+                    <div class="tasksListContainer">
+                        <ul class="tasksList"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="topThreeContainer">
+                <div class="topThree" id="topHabits">
+                    <div class="topThreeTitle">
+                            <h3>Top 3 Habits</h3>
+                    </div>
+                    <ul class="tasksList"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="rightSide">
+            <div id="affirmation">
+                <div class="overlay"></div>
+                <h2 class="randomAffirmation">I am a powerful creator.</h2>
+            </div>
+            <div id="toDoListSection">
+                <div id="toDoList">
+                    <div class="topThreeTitle">
+                        <h3>To-Do List</h3>
+                    </div>
+                    <form class="addItem">
+                        <input type="text" name="item" placeholder="List Item">
+                        <input type="submit" value="Add Item">
+                    </form>
+                    <ul class="taskList"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottomBar">
+                <div class="bottomTab" id="strategies">
+                    <img class="strategiesIcon" src="photos/lightbulb.png" alt="">
+                    <h3>Strategies</h3>
+                </div> 
+                <div class="bottomTab" id="motivation">
+                    <img class="motivationIcon" src="photos/clean.png" alt="">
+                    <h3>Motivation</h3>
+                </div> 
+                <div class="bottomTab" id="newWeek">
+                    <img class="newWeekIcon" src="photos/right-arrow.png" alt="">
+                    <h3>New Week</h3>
+                </div> 
+            </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
